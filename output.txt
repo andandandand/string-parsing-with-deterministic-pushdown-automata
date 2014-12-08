@@ -1,0 +1,10 @@
+Case 1:
+accepted
+rejected
+rejected
+accepted
+rejected
+Case 2:
+rejected
+rejected
+rejected

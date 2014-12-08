@@ -1,0 +1,25 @@
+2
+3 5 1 0 5
+2
+0 0 1 Z XZ
+0 0 1 X XX
+0 1 0 X X
+1 1 1 X /
+1 2 / Z Z
+111101111
+110111
+011111
+11011
+4 6 1 0 5
+3
+1 2 b A /
+0 0 a Z AZ
+0 1 a A AAA
+1 0 a A AA
+2 3 / Z Z
+2 2 b A /
+aabbb
+aaaabbbbbb
+c1bbb
+abbb
+aaaaaabbbbbbbbb 
