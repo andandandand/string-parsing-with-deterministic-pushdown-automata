@@ -30,8 +30,42 @@ java PDAParsing < input.txt
 * Each transition starts with 2 integers, ***I*** and ***J***. The integer ***I*** corresponds to the transition's origin state, the integer ***J*** corresponds to the transition's destiny state. After ***J*** come 2 characters: ***read_symbol*** and ***TOP_SYMBOL***; ***read_symbol*** is the character read in the input string, and ***TOP_SYMBOL*** is the symbol currently at the top of the stack. When found as a ***read_symbol***, the character '/' represents the end of the input string. If it's specified as a ***TOP_SYMBOL***, the character  '/'  represents a disregard for the symbol at the top of the stack. Stack symbols are specified in uppercase letters in the input example below. The transition line ends with the string ***STACK_ACTION***, which represents the symbols to be pushed to the stack, starting from the rightmost symbol of the string. When read as a symbol from ***STACK_ACTION***, the character '/' represents the **pop** stack operation.
 
 ###input###
+2
+
+3 5 1 0 5
+
+2
+
+0 0 1 Z XZ
+
+0 0 1 X XX
+
+0 1 0 X X
+
+1 1 1 X /
+
+1 2 / Z Z
+
+111101111
+
+110111
+
+011111
+
+11011
 
 ###output###
+Case 1:
+
+accepted
+
+rejected
+
+rejected
+
+accepted
+
+rejected
 
 #### Author: Antonio Rueda-Toicen ####
 
