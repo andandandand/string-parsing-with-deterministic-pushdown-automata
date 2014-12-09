@@ -21,6 +21,10 @@ java PDAParsing < input.txt
 
 * ***I***  (first line of the automaton's definition, fourth integer) is the initial state defined for the automaton. 
 
+* ***K*** (first line of the automaton's definition, fifth integer) is the number of strings that will be parsed by the automaton. 
+
+
+
 #### Author: Antonio Rueda-Toicen ####
 
 antonio [dot] rueda "dot" toicen [ at ]  gmail "." com
