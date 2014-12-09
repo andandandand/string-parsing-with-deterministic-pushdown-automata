@@ -23,7 +23,9 @@ java PDAParsing < input.txt
 
 * ***K*** (first line of the automaton's definition, fifth integer) is the number of strings that will be parsed by the automaton. 
 
+* After the first line of the automaton's definition, come ***F*** lines, each one specifying a final state. 
 
+* After the ***F*** lines of final states, come ***T*** lines of transition definitions. 
 
 #### Author: Antonio Rueda-Toicen ####
 
