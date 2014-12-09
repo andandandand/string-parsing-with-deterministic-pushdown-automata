@@ -2,7 +2,7 @@
 
 ![pda-overview.png](https://bitbucket.org/repo/6e7oxe/images/185934312-pda-overview.png)
 
-Java (6+) implementation of [deterministic pushdown automata](http://en.wikipedia.org/wiki/Pushdown_automaton).  String are only accepted if they are consumed while being on a final state, with an empty stack. The automaton's transitions, stack operations, and evaluated strings are defined in an input text file. Output declaring strings as accepted/rejected is printed in console and saved in output.txt. To execute call from terminal
+Java (6+) implementation of [deterministic pushdown automata](http://en.wikipedia.org/wiki/Pushdown_automaton).  Strings are only accepted if they are consumed while the automaton is on a final state, with an empty stack. The automaton's transitions, stack operations, and evaluated strings are defined in an input text file. Output declaring strings as accepted/rejected is printed in console and saved in output.txt. To execute call from terminal
 
 ```
 #!bash
