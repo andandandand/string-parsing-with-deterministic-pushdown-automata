@@ -13,7 +13,13 @@ java PDAParsing < input.txt
 
 * ***C*** is the number of automaton definitions (aka "cases") specified as the first integer of the input file. Each automaton case defines states, transitions, stack operations, and strings to parse. After ***C***, come ***C*** automata definitions.
 
-* ***S*** is the number of states in 
+* ***S***  (first line of the automaton's definition, first integer) is the number of states in the automaton.
+
+* ***T*** (first line of the automaton's definition, second integer) is the number of transitions defined for the automaton.
+
+* ***F*** (first line of the automaton's definition, third integer) is the number of final states defined for the automaton. 
+
+* ***I***  (first line of the automaton's definition, fourth integer) is the initial state defined for the automaton. 
 
 #### Author: Antonio Rueda-Toicen ####
 
