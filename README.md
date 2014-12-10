@@ -71,4 +71,4 @@ rejected
 
 antonio [dot] rueda "dot" toicen [ at ]  gmail "." com
 
-License: Affero GPL
+License: Affero GPL v3
