@@ -70,3 +70,5 @@ rejected
 #### Author: Antonio Rueda-Toicen ####
 
 antonio [dot] rueda "dot" toicen [ at ]  gmail "." com
+
+License: Affero GPL
